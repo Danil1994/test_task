@@ -10,7 +10,8 @@ def read(path: str) -> dict:
 
 def filter_by_time(benchmarking_results: list, start_time: str, end_time: str) -> (list, str):
     if end_time < start_time:
-        return "End time should be less than start time"
+        raise ValueError("End time should be greater than or equal to start time")
+
     start_time = datetime.fromisoformat(start_time)
     end_time = datetime.fromisoformat(end_time)
 
