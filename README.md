@@ -4,7 +4,9 @@ SuperBenchmark is a FastAPI application designed to manage and query benchmarkin
 ## Install
 
 1. Clone repo:
+
    --Clone with SSH `git clone https://github.com/Danil1994/test_task.git`
+
    --Clone with HTTPS `git clone git@github.com:Danil1994/test_task.git`
 2. Go to your project folder: `path/to/the/proj`.
 3. Load your .env file like .env.example.

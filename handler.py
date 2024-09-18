@@ -39,4 +39,4 @@ def get_result(benchmarking_results: list) -> dict:
         "average_total_generation_time": average_total_generation_time
     }
 
-    return (average_results)
+    return average_results
